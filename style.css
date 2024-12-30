@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.upper {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px, 50px;
+    position: static;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    color: #111;
+    font-size: 45px;
+    font-family: brush script mt;
+    padding-left: 25px;
+}
+.menu {
+    width: 42%;
+    display: fixed;
+    justify-content: right;
+    list-style: none;
+    padding-top: 4px;
+}
+.menu a{
+    font-size: 19px;
+    color: #111;
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    transition: 0.5s ease;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.login {
+    font-weight: bold;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background-color: #1f8cc210;
+    color: rgb(15, 99, 151);
+  }
+  
+
+.search{
+    width: 100%;
+    min-height: 90vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(Images/palawan.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.027);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-icon{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-icon input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 25px;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.search-icon button img{
+    width: 15px;
+
+}
+.search-icon button{
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: #b2dfdb;
+    color: #fff;
+    border: 0;
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.457);
+    cursor: pointer;
+}
+
+.top {
+    text-align: center;
+    display: fixed;
+    justify-content: center;
+    list-style: none;
+    padding-top: 4px;
+}
+.top h2{
+    padding-top: 100px;
+}
+.destination1{
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+}
+.destination1 img{
+    width: 350px;
+    height: 30vh;
+}
+.destination1 p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.destination2{
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+}
+.destination2 img{
+    width: 350px;
+    height: 30vh;
+}
+.destination2 p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.destination3{
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+}
+.destination3 img{
+    width: 350px;
+    height: 30vh;
+}
+.destination3 p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.back{
+    padding-left: 30px;
+    color: #111;
+    font-size: 19px;    
+    padding-left: 25px;
+}
+
+
+.contact {
+    height: 190px;
+    background-image: linear-gradient(#0288d1,#0277bd,#01579b)
+    
+  }
+  
+  .contact .margin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  
+  .contact .margin .con {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  
+.col1, .col2, .col3 {
+    width: 420px;
+    float: left;
+    margin: 20px;
+    text-align: left;
+    color: #ffffff;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+  
+  .col1 {
+    margin-left: 40px;
+  }
+  
+  p {
+    color: #fff;
+  }
+  
+  h4 {
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+  }
+  
+  .col2 a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  p {
+    padding-bottom: 10px;
+  }
